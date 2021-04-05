@@ -1,0 +1,92 @@
+body {
+    background-color: #fafafa;
+}
+
+#contenu {
+    display: flex;
+    margin: 10px;
+}
+
+.item {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+    border: solid;
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.item img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 450px;
+}
+
+.item img.top:hover {
+    opacity: 0;
+}
+
+.produit-content {
+    width: 100%;
+    height: 350px;
+}
+
+.produit-content p {
+    text-indent: 20px;
+    padding: 15px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.produit-content h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.produit-content a {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.produit-content a:not(.free) {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.produit-content .demo {
+    background-color: #044da2;
+    color: white;
+}
+
+.produit-content .down {
+    background-color: #04A21A;
+    color: white;
+}
+
+.produit-content .free {
+    background-color: #fcac24;
+    color: white;
+}
+
+span {
+    color: #943c04;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}

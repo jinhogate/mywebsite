@@ -1,0 +1,92 @@
+body {
+    background-color: #fafafa;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section.description {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.contenu-description {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+
+div.contenu-description div {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+    /*box-shadow: 2px 2px 5px #943c04;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #fb7c24;
+    text-align: left;
+    padding: 5px;
+    overflow: auto;
+    width: 300px;
+    font-size: 10px;
+}
+
+.fondateur img {
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 2px 2px 10px lightgoldenrodyellow;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 170px;
+    height: 170px;
+    margin-right: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.contenu-description div:hover {
+    background-color: black;
+    color: white;
+}
+
+div.contenu-description div:hover h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+div.contenu-description p {
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 1.4em;
+}
+
+.fondateur p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding: 5px
+}
+
+.fondateur p:hover {
+    background-color: black;
+    color: white;
+}
+
+.fondateur p:hover img {
+    display: none;
+}

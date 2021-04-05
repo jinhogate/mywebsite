@@ -1,0 +1,44 @@
+footer{
+    display: flex;
+    background-color:rgb(252,172,36,0.7);
+    justify-content: space-around;
+    border-top: 2px solid #943c04;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 20px;
+    height: 150px;
+}
+footer div{
+    padding: 2px 0 5px 5 px;
+    text-align: left;
+}
+footer div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+footer div:nth-child(1) p::first-line{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+footer p.icone{
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p.icone a{
+    display: block;
+    padding: 0 15px 0 15px;
+}
+#contacter{
+    display: inline-block;
+    border: solid;
+    color: #090407;
+    text-decoration: none;
+    background-color: #943c04;
+}
+#contacter:hover{
+    color: white;
+}
+

@@ -1,0 +1,39 @@
+#contenu-bienvenue {
+    width: 940px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#contenu-bienvenue img {
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#contenu-bienvenue div {
+    position: fixed;
+    background-color: white;
+    margin: auto;
+    top: 180px;
+    left: 120px;
+    padding: 20px;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+#contenu-bienvenue p {
+    color: #090407;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contenu-bienvenue span {
+    color: #943c04;
+}
+
+#contenu-bienvenue img {
+    height: 600px;
+    width: 100%;
+}
